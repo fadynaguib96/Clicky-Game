@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Score from "./components/score"
+import Score from "./components/Score/score"
 
 
 

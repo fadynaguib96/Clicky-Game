@@ -1,7 +1,8 @@
 import React from "react";
-import PlayerCard from "./Cards"
-import imgs from "../imgs.json"
-import Navbar from './navbar'
+import PlayerCard from "../Cards"
+import imgs from "../../imgs.json"
+import Navbar from '../Navbar/navbar.js'
+import "./score.css"
 
 
 class Score extends React.Component {
@@ -67,10 +68,10 @@ class Score extends React.Component {
         return (
 
            
-            <div>
+            <div className ="overall">
             <Navbar score = {this.state.score} top = {this.state.topScore} result = {this.state.results} />
 
-            <div className="container">
+            <div className="container cont">
 
                 <div className="row">
 

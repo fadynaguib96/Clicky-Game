@@ -6,7 +6,7 @@ function Navbar(props) {
     return (
         <nav className="navbar navbar-light naav">
 
-        <div class="container">
+        <div className="container">
         
                         <span className="navbar-brand mb-0 h1 ">Clicky Game</span>
                         <span className="navbar-brand mb-0 h1 ">{props.result} </span>
